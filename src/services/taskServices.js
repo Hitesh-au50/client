@@ -1,5 +1,5 @@
 import axios from "axios";
-const apiUrl = "http://localhost:8080/api/tasks";
+const apiUrl = "https://helpful-zuccutto-1dd863.netlify.app/api/tasks";
 
 export function getTasks() {
     return axios.get(apiUrl);
